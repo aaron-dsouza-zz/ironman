@@ -1,0 +1,39 @@
+//  Copyright (c) 2012 BA3, LLC. All rights reserved.
+
+/**
+ Provides performance information about the engine.
+ */
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@interface MEInfo : NSObject
+
+@property CGFloat cameraX;
+@property CGFloat cameraY;
+@property CGFloat cameraZ;
+@property CGFloat cameraRoll;
+@property CGFloat cameraPitch;
+@property CGFloat cameraYaw;
+@property BOOL cameraChangedSinceLastFrame;
+@property CGFloat frameRate;
+@property CGFloat frameTime;
+@property CGFloat deviceScale;
+@property uint renderTargetWidth;
+@property uint renderTargetHeight;
+@property uint drawCallsPerFrame;
+@property uint tileCacheMemorySize;
+@property uint tileCacheTileCount;
+@property uint inFlightTileCount;
+@property uint multiInFlightTileCount;
+@property uint appMemoryUsage;
+
+@property uint totalWorkerCount;
+@property uint animationCount;
+@property uint updateablesCount;
+@property uint visibleTileCount;
+@property uint visibleTileCountPreBias;
+@property BOOL cameraIsMoving;
+@property CGFloat portraitFOV;
+@property CGFloat landscapeFOV;
+@end
+

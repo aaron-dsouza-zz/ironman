@@ -8,26 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		566D515B22B33B2100238B6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D515A22B33B2100238B6E /* AppDelegate.m */; };
-		566D515E22B33B2100238B6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D515D22B33B2100238B6E /* ViewController.m */; };
 		566D516122B33B2100238B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566D515F22B33B2100238B6E /* Main.storyboard */; };
 		566D516422B33B2100238B6E /* Ironman3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 566D516222B33B2100238B6E /* Ironman3.xcdatamodeld */; };
 		566D516622B33B2300238B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566D516522B33B2300238B6E /* Assets.xcassets */; };
 		566D516922B33B2300238B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566D516722B33B2300238B6E /* LaunchScreen.storyboard */; };
 		566D516C22B33B2300238B6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D516B22B33B2300238B6E /* main.m */; };
+		566D517A22B33D5D00238B6E /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D517222B33D5D00238B6E /* DBManager.m */; };
+		566D517B22B33D5D00238B6E /* f15_r12_RadarTrackData_traf.db in Resources */ = {isa = PBXBuildFile; fileRef = 566D517322B33D5D00238B6E /* f15_r12_RadarTrackData_traf.db */; };
+		566D517C22B33D5D00238B6E /* AltusMappingEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566D517422B33D5D00238B6E /* AltusMappingEngine.framework */; };
+		566D517D22B33D5D00238B6E /* nearby.png in Resources */ = {isa = PBXBuildFile; fileRef = 566D517622B33D5D00238B6E /* nearby.png */; };
+		566D517E22B33D5D00238B6E /* Airplane-Top-View-PNG-715x715.png in Resources */ = {isa = PBXBuildFile; fileRef = 566D517722B33D5D00238B6E /* Airplane-Top-View-PNG-715x715.png */; };
+		566D517F22B33D5D00238B6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D517822B33D5D00238B6E /* ViewController.m */; };
+		566D518222B33DD100238B6E /* MasterViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 566D518122B33DD100238B6E /* MasterViewControllerTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		566D515622B33B2100238B6E /* Ironman3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ironman3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		566D515922B33B2100238B6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		566D515A22B33B2100238B6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		566D515C22B33B2100238B6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		566D515D22B33B2100238B6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		566D516022B33B2100238B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		566D516322B33B2100238B6E /* Ironman3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ironman3.xcdatamodel; sourceTree = "<group>"; };
 		566D516522B33B2300238B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566D516822B33B2300238B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		566D516A22B33B2300238B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		566D516B22B33B2300238B6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		566D517222B33D5D00238B6E /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		566D517322B33D5D00238B6E /* f15_r12_RadarTrackData_traf.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = f15_r12_RadarTrackData_traf.db; sourceTree = "<group>"; };
+		566D517422B33D5D00238B6E /* AltusMappingEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AltusMappingEngine.framework; sourceTree = "<group>"; };
+		566D517522B33D5D00238B6E /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		566D517622B33D5D00238B6E /* nearby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nearby.png; sourceTree = "<group>"; };
+		566D517722B33D5D00238B6E /* Airplane-Top-View-PNG-715x715.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Airplane-Top-View-PNG-715x715.png"; sourceTree = "<group>"; };
+		566D517822B33D5D00238B6E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../Ironman2/Ironman2/ViewController.m; sourceTree = "<group>"; };
+		566D517922B33D5D00238B6E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../Ironman2/Ironman2/ViewController.h; sourceTree = "<group>"; };
+		566D518022B33DD100238B6E /* MasterViewControllerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewControllerTableViewController.h; sourceTree = "<group>"; };
+		566D518122B33DD100238B6E /* MasterViewControllerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566D517C22B33D5D00238B6E /* AltusMappingEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +77,17 @@
 			children = (
 				566D515922B33B2100238B6E /* AppDelegate.h */,
 				566D515A22B33B2100238B6E /* AppDelegate.m */,
-				566D515C22B33B2100238B6E /* ViewController.h */,
-				566D515D22B33B2100238B6E /* ViewController.m */,
+				566D517922B33D5D00238B6E /* ViewController.h */,
 				566D515F22B33B2100238B6E /* Main.storyboard */,
+				566D518022B33DD100238B6E /* MasterViewControllerTableViewController.h */,
+				566D518122B33DD100238B6E /* MasterViewControllerTableViewController.m */,
+				566D517722B33D5D00238B6E /* Airplane-Top-View-PNG-715x715.png */,
+				566D517422B33D5D00238B6E /* AltusMappingEngine.framework */,
+				566D517522B33D5D00238B6E /* DBManager.h */,
+				566D517222B33D5D00238B6E /* DBManager.m */,
+				566D517322B33D5D00238B6E /* f15_r12_RadarTrackData_traf.db */,
+				566D517622B33D5D00238B6E /* nearby.png */,
+				566D517822B33D5D00238B6E /* ViewController.m */,
 				566D516522B33B2300238B6E /* Assets.xcassets */,
 				566D516722B33B2300238B6E /* LaunchScreen.storyboard */,
 				566D516A22B33B2300238B6E /* Info.plist */,
@@ -132,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				566D516922B33B2300238B6E /* LaunchScreen.storyboard in Resources */,
+				566D517D22B33D5D00238B6E /* nearby.png in Resources */,
 				566D516622B33B2300238B6E /* Assets.xcassets in Resources */,
+				566D517E22B33D5D00238B6E /* Airplane-Top-View-PNG-715x715.png in Resources */,
+				566D517B22B33D5D00238B6E /* f15_r12_RadarTrackData_traf.db in Resources */,
 				566D516122B33B2100238B6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,10 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566D515E22B33B2100238B6E /* ViewController.m in Sources */,
+				566D518222B33DD100238B6E /* MasterViewControllerTableViewController.m in Sources */,
+				566D517F22B33D5D00238B6E /* ViewController.m in Sources */,
 				566D516422B33B2100238B6E /* Ironman3.xcdatamodeld in Sources */,
 				566D516C22B33B2300238B6E /* main.m in Sources */,
 				566D515B22B33B2100238B6E /* AppDelegate.m in Sources */,
+				566D517A22B33D5D00238B6E /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +318,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZKP4DVRJ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ironman3",
+				);
 				INFOPLIST_FILE = Ironman3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +339,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZKP4DVRJ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ironman3",
+				);
 				INFOPLIST_FILE = Ironman3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
